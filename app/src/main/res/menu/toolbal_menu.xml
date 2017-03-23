@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_share"
+          android:title="分享"
+          app:showAsAction="always"
+          android:icon="@mipmap/share"/>
+
+   <!-- <group >
+        <item android:id="@+id/action_share"
+              android:title="share"/>
+
+        <item android:title="收藏"
+              android:id="@+id/action_collect"/>
+    </group>-->
+
+    <item android:title="设置"
+          android:icon="@mipmap/setting"
+          android:id="@+id/action_setting">
+        <menu >
+            <item android:title="搜索"
+                  android:icon="@mipmap/search"
+                  android:id="@+id/action_search"/>
+
+            <item android:id="@+id/action_notify"
+                  android:icon="@mipmap/notify"
+                  android:title="通知"/>
+        </menu>
+    </item>
+
+</menu>

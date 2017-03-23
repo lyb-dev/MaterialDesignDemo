@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="g_default_loading_fg">
+        <item>#00bcd4</item>
+        <item>#9c27b0</item>
+        <item>#5677fc</item>
+        <item>#ff9800</item>
+        <item>#e91e63</item>
+    </array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="AdjustTextView"><attr format="dimension" name="oscMinTextSize"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr format="dimension" name="oscVerticalSpace"/><attr format="dimension" name="oscHorizontalSpace"/></declare-styleable>
+    <declare-styleable name="Loading"><attr format="dimension" name="gBackgroundLineSize"/><attr format="dimension" name="gForegroundLineSize"/><attr format="reference|color" name="gBackgroundColor"/><attr format="reference|color" name="gForegroundColor"/><attr format="boolean" name="gAutoRun"/><attr format="float" name="gProgressFloat"/></declare-styleable>
+    <declare-styleable name="SquareLayout"><attr format="integer" name="oscAccordTo">
+        <enum name="width" value="1"/>
+        <enum name="height" value="2"/>
+        <enum name="useMin" value="3"/>
+    </attr></declare-styleable>
+    <dimen name="g_loading_maxSize">40dp</dimen>
+    <dimen name="g_loading_minSize">28dp</dimen>
+    <string name="app_name">Common</string>
+    <string name="common_hint_key">Please enter key.</string>
+    <!--<style name="App.Theme.Boss" parent=">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+    <!--</style>-->
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_boss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:paddingTop="64dp">
+
+        <EditText
+            android:id="@+id/edt_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/common_hint_key"
+            android:inputType="text"
+            android:labelFor="@id/edt_key"
+            android:textColor="#ffffffff"
+            android:textSize="22sp" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/txt_token"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+</LinearLayout>

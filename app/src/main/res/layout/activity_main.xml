@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.giiso.materialdesigndemo.activity.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- app:popupTheme="@style/ToolbarPopupTheme"  控制菜单栏样式 -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Toolbar"
+        app:navigationIcon="@mipmap/close"
+        app:title="标题"
+        app:titleTextColor="@android:color/white"
+        app:titleTextAppearance="@style/ToolbarTitleTextAppearance"
+        app:subtitle="副标题"
+        app:subtitleTextColor="@android:color/white"
+        app:subtitleTextAppearance="@style/ToolbarSubTitleTextAppearance"
+        app:titleMarginStart="15dp"
+        app:popupTheme="@style/ToolbarPopupTheme"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="自定义控件"
+            android:id="@+id/tv_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fb"
+        android:layout_gravity="bottom|right"
+        app:backgroundTint="#30469b"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_anchorGravity="bottom|right"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="#a6a6a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
